@@ -1,0 +1,28 @@
+.navigation {
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    gap: var(--defsize);
+    justify-content: center;
+}
+
+.navbtn {
+    width: 100%;
+}
+
+.navbtn svg {
+    width: 1rem;
+    height: 1rem;
+    color: white;
+}
+
+.page {
+    display: none;
+}
+
+.page.active {
+    display: flex;
+    flex-direction: column;
+    padding: 0.4rem 0 0.4rem 0;
+    height: calc(100% - 0.8rem);
+}

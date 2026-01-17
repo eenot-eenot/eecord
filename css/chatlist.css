@@ -1,0 +1,45 @@
+.chat-thing {
+    width: calc(100% - 1rem);
+    display: inline-flex;
+    background: var(--backclr);
+    border-radius: var(--defsize);
+    padding: 0.5rem;
+    transition: background-color 0.25s ease;
+}
+
+.chat-thing:hover {
+    background: var(--backhover);
+    cursor: pointer;
+    transition: background-color 0.25s ease;
+}
+
+.pfp {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.6rem;
+    margin-right: 1rem;
+}
+
+.chat-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chat-info {
+    width: 100%;
+}
+
+.message-count {
+    background-color: var(--accent-color);
+    border-radius: 1rem;
+    padding: 0.2rem 0.6rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+#chats.active {
+    display: flex;
+    flex-direction: column;
+    gap: var(--defsize);
+}

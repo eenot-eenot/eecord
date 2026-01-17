@@ -1,0 +1,9 @@
+#chat {
+    justify-content: space-between;
+}
+
+.input-area {
+    width: 100%;
+    display: inline-flex;
+    gap: var(--defsize);
+}
